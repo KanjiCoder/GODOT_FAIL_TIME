@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bat2kvrcrgbsj"]
+
+[ext_resource type="Script" path="res://PARALLAX_BACKGROUND.gd" id="1_3kgre"]
+[ext_resource type="Texture2D" uid="uid://but1vfx0ws6up" path="res://ASS/CLOUDS_2048.PNG" id="1_8y65p"]
+
+[node name="N2D_WORLD" type="Node2D"]
+
+[node name="PARALLAX_BACKGROUND" type="ParallaxBackground" parent="."]
+script = ExtResource("1_3kgre")
+
+[node name="PARALLAX_LAYER" type="ParallaxLayer" parent="PARALLAX_BACKGROUND"]
+motion_mirroring = Vector2(2048, 2048)
+
+[node name="S2D_CLOUDS" type="Sprite2D" parent="PARALLAX_BACKGROUND/PARALLAX_LAYER"]
+texture = ExtResource("1_8y65p")
+offset = Vector2(1024, 1024)

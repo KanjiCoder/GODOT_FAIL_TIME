@@ -1,0 +1,7 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1702160187
+icon.svg::CompressedTexture2D::6436560656301286220::1702103170::1702103184::1::::<><>::
+n2d_world.tscn::PackedScene::2427302207129834545::1702104607::0::1::::<><>::res://PARALLAX_BACKGROUND.gd<>uid://but1vfx0ws6up::::res://ASS/CLOUDS_2048.PNG
+PARALLAX_BACKGROUND.gd::GDScript::-1::1702104499::0::1::::<>ParallaxBackground<>::
+::res://ASS/::1702103627
+CLOUDS_2048.PNG::CompressedTexture2D::3831037176578096643::1702103620::1702103627::1::::<><>::

@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dung8d3wdooot"]
+
+[ext_resource type="Texture2D" uid="uid://dl7lfv43n0k57" path="res://ASS/CLOUDS_2048.PNG" id="1_codwj"]
+[ext_resource type="Script" path="res://n2d_world.gd" id="1_u23hf"]
+
+[node name="N2D_WORLD" type="Node2D"]
+script = ExtResource("1_u23hf")
+
+[node name="S2D_CLOUDS" type="Sprite2D" parent="."]
+texture = ExtResource("1_codwj")
+
+[node name="C2D_MAIN" type="Camera2D" parent="."]
+offset = Vector2(-100, 44)
