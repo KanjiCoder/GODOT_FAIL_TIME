@@ -1,0 +1,506 @@
+[15:45] +joshicus_saint_anger: Do you think you'd hate Godot or unity less?
+[15:45] @?v0lt13: unity i guess
+[15:45] ~kanjicoder: Hmmmm.....
+[15:45] @?v0lt13: since i love unity
+[15:46] @?v0lt13: godot has a built in editor
+[15:46] @?v0lt13: for code
+[15:47] @?v0lt13: i think you would hate anything thats not C
+[15:49] +joshicus_saint_anger: Yeah
+[15:49] ~kanjicoder: I think I am going to hate game maker and godot and unity all for different reasons .
+[15:49] ~kanjicoder: So since we both have experience with game maker it is best option for getting something out the door quickly .
+[15:51] @?v0lt13: there is also cocos2Dx
+[15:51] +joshicus_saint_anger: Yeah it looks good so far
+[15:51] @?v0lt13: is a C++ 2D engine
+[15:52] @?v0lt13: it got an editor and SDK
+[15:52] @?v0lt13: SDK you can make your game with code only
+[15:53] ~kanjicoder: https://docs.google.com/document/d/1RGoEFGjg49mk5v8fPwydgwrBfMM17IyVTojZUX0wyBw/edit?pli=1#heading=h.38zhokiyiite
+[15:53] +joshicus_saint_anger: I would describe this game as a rail platformer... If that helps
+[15:54] ~kanjicoder: If you can find example game on newgrounds or itch.io that would be helpful.
+[15:54] ~kanjicoder: But I think I know what you are talking about .
+[15:55] +joshicus_saint_anger: What ultimately matters is networking. Whatever has the most support for servers and getting players playing together. But that doesn't matter for this first game
+[15:55] @?v0lt13: undertale?
+[15:56] ~kanjicoder: YES undertale .
+[15:57] @?v0lt13: well ima go, cya
+[15:57] +joshicus_saint_anger: Just so you know you'll be learning way more than you need to for this first game
+[15:58] +joshicus_saint_anger: The documentation is pretty good as far as looking up functions and stuff for coding
+[15:58] ~kanjicoder: Yeah, there is stuff like, shooting that isn't needed in this tutorial .
+[15:58] +joshicus_saint_anger: But learning general tool functions is good
+[15:59] ~kanjicoder: I think figuring out "how does one make a project/game in game maker" is the thing I really need to know .
+[16:02] +joshicus_saint_anger: It's a different function to call out the arrow keys
+[16:03] ~kanjicoder: one button game for "Ninja Runner".
+[16:03] ~kanjicoder: Just a jump button ?
+[16:04] +joshicus_saint_anger: https://www.youtube.com/watch?v=UB7QKBtKtp0&list=PLoOCiP3Ezxf_T5KkdMWVyIHxLl-nsvx8O
+[16:05] +joshicus_saint_anger: This has random levels and no platform to jump on but this might be less work
+[16:05] ~kanjicoder: Do we want an actual "endless tilemap" .
+[16:06] +joshicus_saint_anger: I want to design the levels
+[16:08] ~kanjicoder: 1. How to make a tilemap ?
+[16:08] ~kanjicoder: 2. HOw to make a camera 
+[16:08] +joshicus_saint_anger: Maybe we need to have meetings to help get is on the same page
+[16:08] ~kanjicoder: Also, how to load level data into that tilemap .
+[16:09] ~kanjicoder: Do we want to do "daily standup" ? 
+[16:09] +joshicus_saint_anger: I think before you start a new task we should have a meeting about it to make sure you have a more clear direction
+[16:12] +joshicus_saint_anger: There are also tutorials that are one video. That might be a better place to start. I'm already worried about the amount of work. Like, I might be able to make this game by myself faster than you at this point.
+[16:13] +joshicus_saint_anger: So like, if these skills aren't going to build on the next project, is that time well spent
+[16:13] +joshicus_saint_anger: Not to take the wind completely out of your sails
+[16:16] +joshicus_saint_anger: yeah I don't want you floundering like this. That's more frustrating... um
+[16:16] +joshicus_saint_anger: https://www.youtube.com/watch?v=FmIo8iBV1W8&t=541s
+[16:17] +joshicus_saint_anger: here is an asteroids tutorial. This is the second game.
+[16:17] +joshicus_saint_anger: But like, it's a two hour tutorial
+[16:18] +joshicus_saint_anger: There is a gamemaker version that I've followed before
+[16:18] ~kanjicoder: https://gamemaker.io/en/blog/beginners-guide-to-networking
+[16:19] +joshicus_saint_anger: https://www.youtube.com/watch?v=nwlvT-L9vFg&t=3s
+[16:19] +joshicus_saint_anger: official gamemaker tutorial
+[16:22] +joshicus_saint_anger: Yeah meatboy
+[16:22] ~kanjicoder: Endless horizontal tunnel or endless vertical tunnel ?
+[16:22] +joshicus_saint_anger: No
+[16:22] +joshicus_saint_anger: It's neither
+[16:22] +joshicus_saint_anger: Multiple levels
+[16:23] +joshicus_saint_anger: But not in the first deliverable
+[16:24] +joshicus_saint_anger: The document specifically says it's not. You have one input and that input is jump
+[16:24] +joshicus_saint_anger: Give me a box surrounded by solid objects
+[16:25] +joshicus_saint_anger: Exactly
+[16:25] +joshicus_saint_anger: We'll want esc to exit for debugging
+[16:31] +joshicus_saint_anger: So stretch Goal 1 is Scoreboards which needs timers, so ignore the timer for now.
+[16:31] +joshicus_saint_anger: yes it's a hard game
+[16:34] ~kanjicoder: "Give me a box surrounded by solid objects"
+[16:35] +joshicus_saint_anger: I think if you hate the process, learning to learn efficiently will be a good skill
+[16:37] ~kanjicoder: If we say the deliverable is :
+[16:37] ~kanjicoder: 1. Camera following player .
+[16:37] ~kanjicoder: 2. Player jumps when you press jump
+[16:37] ~kanjicoder: 3. Player changes directions when hits a collidable tile 
+[16:37] ~kanjicoder: 4. Camera follows player
+[16:38] ~kanjicoder: 5. Tilemap is just either "no tile here" or "yes a tile is here" for now . No material specifics .
+[16:39] ~kanjicoder: 6. Everything is just solid blocks of color for this deliverable .
+[16:39] +joshicus_saint_anger: make an object that is a 24x24 square. Give it a square sprite. I would avoid the tile system for now
+[16:40] +joshicus_saint_anger: you just need an object to check collision with.
+[16:40] ~kanjicoder: "Give me a box surrounded by solid objects "
+[16:40] +joshicus_saint_anger: right?
+[16:41] +joshicus_saint_anger: I don't understand
+[16:42] ~kanjicoder: Are you worried that if I do a rudimentary tilemap that it is going to :
+[16:42] ~kanjicoder: 1. be a waste of time 
+[16:42] ~kanjicoder: 2. Not be customizable to your vision ?
+[16:43] +joshicus_saint_anger: https://www.instagram.com/p/BmNFn_7l5Rm/
+[16:43] +joshicus_saint_anger: so in this, each tile is a sprited object, not a tile. And they all check if they are next to their buddies or not
+[16:44] +joshicus_saint_anger: so that grass is another sprite that get drawn on top of the sprite
+[16:44] +joshicus_saint_anger: in the editor you only see square blocks
+[16:44] +joshicus_saint_anger: the same square block
+[16:45] +joshicus_saint_anger: you can draw multiple sprites per object. you can also spawn objects on top of each other
+[16:45] +joshicus_saint_anger: this will make the level design process much faster
+[16:47] +joshicus_saint_anger: I believe so yes
+[16:48] +joshicus_saint_anger: yeah
+[16:49] +joshicus_saint_anger: yeah in that first step section
+[16:49] ~kanjicoder: 1. Camera following player
+[16:49] ~kanjicoder: 2. Player jumps when you press jump
+[16:49] ~kanjicoder: 3. Player changes direction when hits collidable whatever 
+[16:50] ~kanjicoder: 4. Camera follows player 
+[16:50] ~kanjicoder: 5. Just solid colors for now .
+[16:51] +joshicus_saint_anger: https://www.youtube.com/watch?v=2Jlwkletpjk
+[16:53] +joshicus_saint_anger: you can have stuff like drag and a dead spot in the middle but it can just follow the player 1:1
+[16:54] ~kanjicoder: Let's say 5PM tommorrow, I deliver items 1 through 5 .
+[16:55] +joshicus_saint_anger: yeah that sounds great
+[16:55] +joshicus_saint_anger: yeah man take a break
+[16:58] +joshicus_saint_anger: VirtualHug
+[16:58] ~kanjicoder: Alright ! We will check back tomorrow !
+[17:00] ~Stream offline~
+[13:09] Disconnected
+[13:09] Attempting to reconnect in 1 seconds.. (1/∞)
+[13:09] Connecting to irc.chat.twitch.tv:6697.. (secured)
+[13:09] Joining #kanjicoder..
+[13:09] You have joined #kanjicoder
+[13:02] Disconnected
+[13:02] Attempting to reconnect in 1 seconds.. (1/∞)
+[13:02] Connecting to irc.chat.twitch.tv:6697.. (secured)
+[13:02] Joining #kanjicoder..
+[13:02] You have joined #kanjicoder
+[17:07] ~Game Prototyping : Game Maker , I hate Game Maker (Software and Game Development)~
+[17:08] 'dehrens: hello
+[17:09] dehrens: @TellMeWhen_YOU_GO_LIVE_ON_TWITCH
+[17:09] dehrens: @kanjicoder ^^
+[17:11] ~kanjicoder: Hey hey
+[17:11] ~kanjicoder: Oh shit...
+[17:12] ~kanjicoder: Hmm... It didn't ding when you messaged me.
+[17:12] ~kanjicoder: Or maybe I was fucking with the sound.
+[17:12] ~kanjicoder: Also yes, let me do that .
+[17:12] dehrens: All good - no worries (:
+[17:13] ~kanjicoder: I don't think this video is going to tell me anything new .
+[17:13] ~kanjicoder: But it is only 6 minutes .
+[17:13] dehrens: me neither
+[17:13] ~kanjicoder: The debugger video should be something new to me though .
+[17:13] dehrens: yeah, better watch the videos just in case (:
+[17:13] ~kanjicoder: It's that 100% completionist thing for not missing anything in cracks .
+[17:14] ~kanjicoder: show_debug_message( xxxxxxxxxxxxxxxxxx );
+[17:14] ~kanjicoder: That is new to me .
+[17:14] dehrens: well maybe that can log null
+[17:14] ~kanjicoder: Hmm... That was my thought butt.....
+[17:15] ~kanjicoder: Looking at the output in this video would suggest not . We can try .
+[17:15] dehrens: 👍🏻
+[17:15] dehrens: yeah, that kinda sucks
+[17:16] dehrens: or would suck if it doesn’t work
+[17:17] dehrens: preventing you from accidentally reading false values though (;
+[17:17] dehrens: yeah!
+[17:18] dehrens: huh?
+[17:18] dehrens: what is that resolution?
+[17:19] dehrens: even your monitor doesn’t like standards (;
+[17:20] dehrens: yeah, I was just curious what the resolution is defined as
+[17:21] dehrens: I don’t even get those AI responses - wonder why that is
+[17:21] dehrens: yeah, that annoys me as well
+[17:21] dehrens: my main monitor is 3440 x 1440 xD
+[17:23] dehrens: yeah, paths are essential… why doesn’t it give them??
+[17:23] dehrens: one day bitching, one day learning, one day bitching, and so on…
+[17:24] dehrens: that’s not it
+[17:24] dehrens: xD
+[17:24] dehrens: and it’s curved (;
+[17:25] dehrens: >1/4 of my main monitor size
+[17:25] dehrens: well, resolution
+[17:25] dehrens: my second monitor is 13.5” and 4k lol
+[17:25] dehrens: Yeah, that makes sense (:
+[17:26] dehrens: no, it’s like 16k for the eye
+[17:26] ~kanjicoder: show_debug_message( xxxxxxxxxxxxxxxxxx );
+[17:26] dehrens: we’ll see
+[17:27] dehrens: probably yes in this weird thingy
+[17:28] dehrens: yeah, ‘var not set before’
+[17:29] dehrens: all those things are indeed different ways of saying the same thing: “nothing to see here!”. Each one exists because sometimes it’s important to know what has caused this “nothing to see here” return, and to differentiate between different causes and effects. In general in GameMaker, the most common ones you’ll use are noone and undefined, both of which can be used for multiple general-purpose checks. The others that exist (like null_pointer, or NaN)
+[17:30] dehrens: from a form post ^^
+[17:30] dehrens: forum*
+[17:31] dehrens: yeah, it’s just defined as null being -4 there, but for arrays in example it’s set as 0
+[17:31] dehrens: for example*
+[17:32] ~kanjicoder: var whatever ; //: undefined ://
+[17:32] ~kanjicoder: var whatever =( null ) ; // null , means I did it //
+[17:32] ~kanjicoder: var whatever ; //: undefined means I forgot to initialize ://
+[17:32] dehrens: yeah, that’d be the intuitive way, but that’d be too easy…
+[17:33] dehrens: yeah
+[17:33] dehrens: I hate swift the least so far (:
+[17:34] dehrens: isn’t pointer_null also just undefined?
+[17:34] dehrens: null xD
+[17:34] dehrens: wth
+[17:35] dehrens: can you alias it?
+[17:35] dehrens: so null just (ironically) points to pointer_null? xD
+[17:36] dehrens: password reveal when? xD
+[17:36] dehrens: dehrenslzZ
+[17:36] ~kanjicoder: According to logs : pointer_null is "null" not "undefined" .
+[17:36] dehrens: that was before the output (:
+[17:37] ~kanjicoder: https://github.com/KANJICODER/NINJA_RUNNER_GM
+[17:37] dehrens: yep, thank you (:
+[17:37] ~kanjicoder: https://github.com/KANJICODER/NINJA_RUNNER_GM/invitations
+[17:38] dehrens: i have not, but am curious (:
+[17:39] dehrens: yeah, me too (only partially photographic):
+[17:40] dehrens: Yes, I get it (:
+[17:41] dehrens: that’s really cool - gotta get myself one of those as well I think
+[17:42] dehrens: wow, really cool - am impressed
+[17:43] dehrens: don’t worry, there won’t be - I’ll make sure xD
+[17:44] dehrens: better be tall as a bouncer (;
+[17:45] dehrens: uhm
+[17:45] dehrens: okay, that makes sense (:
+[17:46] dehrens: I’m a little taller than you I think (:
+[17:47] dehrens: I need to calcolate, one sec
+[17:48] dehrens: yeah, I’m about 15 cm taller (almost 6”)
+[17:48] dehrens: calcolate => calculate with typo xD
+[17:48] ~kanjicoder: So do women in germany have profiles that say "Must be 6' tall".
+[17:48] ~kanjicoder: Or is it all like...
+[17:48] dehrens: yep
+[17:48] ~kanjicoder: "MUST BE 6'5" "
+[17:48] dehrens: like 1,90m
+[17:49] dehrens: so like 5,9’
+[17:49] dehrens: I think
+[17:49] dehrens: cm = cantimetre
+[17:49] dehrens: centimeter
+[17:49] dehrens: Am on mobile and can’t type…
+[17:50] dehrens: yeah, I absolutely about 180
+[17:50] dehrens: am*
+[17:50] dehrens: fcking autocorrect
+[17:50] dehrens: french women too for some reason
+[17:50] dehrens: they really don’t care very much xD
+[17:51] ~kanjicoder: And that probably can be reflected in average height statistics .
+[17:51] dehrens: probably
+[17:51] dehrens: the durch are reallyyyyyyy tall
+[17:51] dehrens: dutch*
+[17:52] dehrens: the women as well (like most around 6”), and they want taller men xD
+[17:52] ~kanjicoder: I wonder if the countries with the tallest men are also the countries with with bustiest women .
+[17:52] ~kanjicoder: Hmm... Except Russians aren't super tall are they ?
+[17:52] dehrens: there’s probably a paper on that
+[17:53] ~kanjicoder: Someone has crunched the numbers I am sure .
+[17:53] dehrens: I think russian men are, but women aren’t
+[17:53] ~kanjicoder: Just be careful who you bring it up to . 
+[17:53] dehrens: yep
+[17:53] ~kanjicoder: https://www.youtube.com/watch?v=CRiRXIpIdYw
+[17:53] dehrens: let’s learn stuff for real xD
+[17:54] dehrens: yeah, definitely
+[17:55] 'Laviatan7: Hello
+[17:55] dehrens: hi (:
+[17:55] ~kanjicoder: Were are getting slightly... Tossy ...
+[17:56] dehrens: of course - want those stacks, right?
+[17:56] dehrens: you must be below 120 pounds though…
+[17:56] dehrens: xD
+[17:57] Laviatan7: What will the Game Prototype be about?
+[17:57] dehrens: just the proportions, yeah - that’s nothing I’d ever care about
+[17:57] dehrens: that = weight
+[17:59] dehrens: works though, nice
+[17:59] Laviatan7: Looks pretty nice so far
+[17:59] ~kanjicoder: Were are hoping Josh's art can make my shit code look good .
+[17:59] dehrens: okay, I need to do some work - I’ll check in occasionally on your insanity level (;
+[18:01] Laviatan7: Ok i know i cant Talk abt Code that Much ( bc im in an rly Early Stage of making Games ) but Art rly makes shit code Look nice LUL
+[18:02] Laviatan7: Using Fricking Scratch lol
+[18:02] ~kanjicoder: You should definitely talk to my freind Asuna if you do scratch .
+[18:03] Laviatan7: Whats the Discord Invite ? LUL
+[18:04] ~kanjicoder: www.tinyurl.com/KANJI-DISCORD
+[18:04] ~kanjicoder: https://discord.com/invite/62ctM4pK7p
+[18:05] Laviatan7: Damn someone Joined lul
+[18:09] ~kanjicoder: I dont' know if you can hear my youtube feed from my bottom monitor .
+[18:10] Laviatan7: What do ya think ? What Game am i making in Scratch
+[18:12] Laviatan7: An Card Game , ( Super Mario Card Game to be exact ) which whould ne the 3rd on Scratch , but ur not wrong since my Next one whould be a Monster RPG LUL
+[18:16] Laviatan7: Welp Time to Work on the Character Unlocking System
+[18:34] Laviatan7: I have Fixed a Bug yay
+[18:34] ~kanjicoder: Excellent!
+[18:34] ~kanjicoder: I have to go do chinups and jump on trampoline .
+[18:34] ~kanjicoder: And get more coffee.
+[18:34] ~kanjicoder: I'll be back in about 10 minutes probably.
+[18:34] ~kanjicoder: And then am going to do a 1 hour coding session.
+[18:35] ~kanjicoder: And then get out of here .
+[18:35] Laviatan7: Since u were able to Start and then Change to a Locked Character to Cheat And bypass the Unlocking Stuff
+[18:35] ~kanjicoder: Wait , what ? What is the topic here ?
+[18:35] ~kanjicoder: I'll be back .
+[18:36] Laviatan7: Cya
+[18:36] Laviatan7: In 10 Mins
+[18:40] Laviatan7: Welp Time to Draw
+[18:46] ~kanjicoder: Drawing is always fun. Especially since you can listen to stuff while you draw .
+[18:47] XNVXNV: I thought maybe you ate your banana and died
+[18:47] Laviatan7: Wonder when asuna answers
+[18:48] ~kanjicoder: Banana is still cooking .
+[18:48] ~kanjicoder: ANd I'll let Asuna know they have a message from you .
+[18:53] dehrens: how’s your insanity doing? - I do like powers of 2, yes.
+[18:57] Laviatan7: Aaaaa Achievements are hard
+[18:58] dehrens: I need to get sleep - what should I do?
+[18:58] ~kanjicoder: Read C book .
+[18:58] ~kanjicoder: It will put you to sleep .
+[18:59] dehrens: I don’t have it ):
+[18:59] dehrens: but I’ll get it and let it pit me to sleep
+[18:59] dehrens: thanks for the suggestion (:
+[19:00] +joshicus_saint_anger: Like sea of thieves!
+[19:01] ~kanjicoder: There is a term for what I am talking about... but I don't know the exact name.
+[19:01] ~kanjicoder: So I'll just call it "peak design".
+[19:02] +joshicus_saint_anger: Hahaha 100%
+[19:16] +joshicus_saint_anger: Is there a reason you aren't handling it in the collision event?
+[19:17] ~kanjicoder: I want as few scattered files as possible to make it easy to find stuff .
+[19:26] +joshicus_saint_anger: This might be the worst possible engine we could be working in
+[19:44] +joshicus_saint_anger: We need a way for me to comment without wrecking your flow.
+[21:00] ~kanjicoder: !uptime
+[21:08] ~Stream offline~
+[16:31] ~Game Prototyping : Godot . THE EXE WORKS RIGHT OUT OF THE BOX . THIS IS A GREAT SIGN ! (Software and Game Development)~
+[17:05] ~kanjicoder: Pros :
+[17:06] ~kanjicoder: 1. exe runs out of the box, no installer .
+[17:06] ~kanjicoder: 2. UI is less crowded than game maker
+[17:06] ~kanjicoder: 3. Option to left click and view script in file explorer 
+[17:20] ~kanjicoder: 4. Sprite sheet configuration makes more sense.
+[17:20] ~kanjicoder: Rows and column count is more intuitive than whatever game maker did .
+[18:21] asuna_vt_: hello
+[18:22] ~kanjicoder: Hey
+[18:22] asuna_vt_: hru today?
+[18:22] ~kanjicoder: question mark image filetype:png
+[19:02] ~Stream offline~
+[21:34] ~kanjicoder: Rawer
+[17:46] ~Game Prototyping : Godot . THE EXE WORKS RIGHT OUT OF THE BOX . THIS IS A GREAT SIGN ! (Software and Game Development)~
+[18:27] +joshicus_saint_anger: Nice! So you can apply collision directly to certain tiles? I wonder if this would extend to "pass-through" platforms
+[18:27] ~kanjicoder: Probably I am thinking .
+[18:27] ~kanjicoder: I am doing 1 hour of study . 1 hour of coding .
+[18:28] 'SanderE1: you would do platforms on their layer and add code to the player script to handle going down probably
+[18:28] ~kanjicoder: Trying to not pause the video so I cover more ground .
+[18:28] ~kanjicoder: And then just try and see what I can remember .
+[18:29] ~kanjicoder: But let's do the business man dan stuff first before worrying about all that .
+[18:31] ~kanjicoder: I don't know if anyone else is bothered by this...
+[18:31] ~kanjicoder: But his fucking face in front of the FileSystem browser annoys the fuck out of me.
+[18:31] ~kanjicoder: I assume people do "face cams" because it brings in more views. But it degrades the quality as far as I am concerned .
+[18:34] SanderE1: I think using the name is bad, the objects should be on their own collision layers so the only thing they could possible collide is with whatever object they should be colliding with
+[18:35] ~kanjicoder: Collision layers sorted by conceptual game depth ?
+[18:35] ~kanjicoder: So if player and enemy are both in foreground , the collide .
+[18:36] ~kanjicoder: But if player is in foreground and enemy is in background, they don't collide ?
+[18:36] SanderE1: the tutorial does logic on collision based on the name of the collider, which wastes resources when it collides with something else
+[18:37] SanderE1: that code yes
+[18:37] SanderE1: yes :)
+[18:43] SanderE1: think of it as a filesystem, ou are getting a node by a directory basically
+[18:44] SanderE1: the string is just for getting it
+[18:45] SanderE1: he is going to convert it at some point
+[18:45] SanderE1: nope
+[18:45] ~kanjicoder: So line 14 isn't finished ?
+[18:45] SanderE1: unfinished I think
+[18:45] SanderE1: it will probably do something different
+[18:47] SanderE1: it's not actually a filesystem, it's just formatted like one
+[18:47] SanderE1: its all in memory
+[18:47] ~kanjicoder: Okay. Makes more sense now .
+[18:47] ~kanjicoder: In memory collection of nodes that you access like a file system ?
+[18:48] SanderE1: self is node script is attached to\
+[18:49] ~kanjicoder: direction_vector =( target_position - current_position )
+[18:49] ~kanjicoder: Thus , pointing right to left .
+[18:49] ~kanjicoder: direction_vector =( target_position <- current_position )
+[18:49] SanderE1: godot also provides functions for math like this
+[18:50] ~kanjicoder: soemthing like make_vector_a_to_b( a , b )
+[18:50] SanderE1: yeah, can't remember the actual name
+[19:56] ~kanjicoder: Our first task should be an infinitely tiling sky background with a camera that is constantly moving downward .
+[21:07] ~Stream offline~
+[21:14] ~Game Prototyping : Godot . THE EXE WORKS RIGHT OUT OF THE BOX . THIS IS A GREAT SIGN ! (Software and Game Development)~
+[21:27] SanderE1: I think you might have to tell it the type
+[21:27] ~kanjicoder: Cast ?
+[21:27] ~kanjicoder: I have no clue how to cast in Python 
+[21:27] SanderE1: no parenthesis
+[21:28] SanderE1: Vector2(0, 0)
+[21:29] SanderE1: try this var PB: ParallaxxBackground = self
+[21:29] SanderE1: you need var
+[21:30] SanderE1: huh, weird
+[21:30] SanderE1: remove parenthesis
+[21:32] SanderE1: oh wait, you DONT need self
+[21:32] SanderE1: you should be able to just do scroll_offset
+[21:32] SanderE1: I guess don't use self then lol
+[21:33] SanderE1: also this is just the builtin editor, you can use vscode etc
+[21:34] SanderE1: ++ is not in python or gdscript
+[21:34] SanderE1: just += 1 lol
+[21:35] SanderE1: but it is important to say, it's not python, it's much different
+[21:35] ~kanjicoder: Extension of python ?
+[21:35] ~kanjicoder: Or modelled after python ? 
+[21:35] SanderE1: no, it's own thing
+[21:36] SanderE1: godot's source code contains the entire interpreter for it, and it's faster
+[21:36] SanderE1: set the scrolls to 0
+[21:36] SanderE1: it's just nothing atm
+[21:38] SanderE1: when it crashes it goes into a state where you can see the variables and stuff in the script(s) that failed
+[21:39] SanderE1: good lord are you using the web version of godot?
+[21:40] SanderE1: oh it's a top bar lmao
+[21:48] SanderE1: how are liking godot compared to gamemaker
+[21:48] ~kanjicoder: I like godot more than game maker 
+[21:50] SanderE1: a lot of stuff makes works really well only if you already understand the organization
+[21:50] SanderE1: yes that menu is JUST the filesystem
+[21:50] SanderE1: when you drag stuff in it imports it
+[21:51] SanderE1: well, filesystem stuff won't have properties, but it is a bit unclear
+[21:53] SanderE1: a lot of this stuff I don't even think about with how used to it I am
+[21:53] ~kanjicoder: What was your github name again ? I will send you the repo for this .
+[21:57] ~Stream offline~
+[08:51] 'unixani: Come stream-promotion ru. Promote your channel, viewers, followers, views, chat bots. Many offers for different platforms. Autostart. Responsive support 24\7
+[23:34] ~Game Prototyping : Godot . THE EXE WORKS RIGHT OUT OF THE BOX . THIS IS A GREAT SIGN ! (Software and Game Development)~
+[02:29] ~Stream offline~
+[05:18] ~Game Prototyping : Godot . THE EXE WORKS RIGHT OUT OF THE BOX . THIS IS A GREAT SIGN ! (Software and Game Development)~
+[05:33] ~Stream offline~
+[06:44] ~Game Prototyping : Godot . THE EXE WORKS RIGHT OUT OF THE BOX . THIS IS A GREAT SIGN ! (Software and Game Development)~
+[06:59] ~Stream offline~
+[00:02] ~Godot 4.2 Prototyping - CAMERA (Software and Game Development)~
+[00:23] 'ironicmoronic: I think this way is a little messy
+[00:23] ~kanjicoder: Definitely seems messy .
+[00:25] ironicmoronic: damn looks complicated haha
+[00:27] ~kanjicoder: It's fucking insane .
+[00:29] ironicmoronic: I would honestly just @export a next_level variable on a level and plug the next level scene into it, that's what godot is for
+[00:30] ~kanjicoder: If you have and links to videos or documentation explaining what you are talking about .
+[00:30] ~kanjicoder: Please drop them in chat .
+[00:30] ~kanjicoder: Because I know Jack Shit about GODOT .
+[00:36] ironicmoronic: I don't have any links sorry, but it's the exact same way he's doing it, but you would have an @export var next_level : PackedScene at the top of the script, and use that instead of a weird long equation
+[00:37] ~kanjicoder: For every level script , have a variable called "next_level" ? 
+[00:37] ~kanjicoder: Or, rather... initializing a re-usable variable "next_level" to the next level at start of every level ?
+[00:37] ironicmoronic: you only need one level script, @export lets you change variables in the inspector uniquely,
+[00:37] ~kanjicoder: I have seen the @export" but don't know what it means .
+[00:39] ironicmoronic: you have to be careful with godot youtube tutorials because a lot of them are outdated and they solve problems in not the best ways
+[00:39] ironicmoronic: it's scene, .tres is resource
+[00:40] ironicmoronic: they're made by people learning and figuring out the engine themself too, this guy figured out a way to do something and he's sharing it, nothing wrong with that
+[00:40] ironicmoronic: but it's messy
+[00:55] ironicmoronic: I think 99.9% of the time you will never be looking at a tscn file liek this
+[00:55] ironicmoronic: or change it
+[00:56] ~kanjicoder: It's that 1% of the time that you do, and you know about it, so you save yourself 8 hours of pulling your hair out .
+[00:57] ~kanjicoder: Mixing paint...
+[00:57] ~kanjicoder: If your goal was to mix green .
+[00:57] ~kanjicoder: But you mix together red and blue and get violet .
+[00:57] ~kanjicoder: You could consider that a failure , or just learning howt o make violet .
+[00:57] ~kanjicoder: So sometimes I think with studying, I like to be... "less focused".
+[00:58] ~kanjicoder: And just "mix all the paints together and take notes" .
+[01:03] ironicmoronic: it's quite elaborate lol
+[01:04] ~kanjicoder: It's worked pretty well for me. Been adding to it since 2017
+[01:05] asuna_vt_: hello
+[01:05] ironicmoronic: this is longer than the average game made in godot I think
+[01:07] ~kanjicoder: It's longer than most of the code I've written as well .
+[01:07] asuna_vt_: hru today?
+[01:09] ~kanjicoder: Alright. How about you @asuna_vt_
+[01:10] asuna_vt_: im fine. just bought a few beyblades since im getting back into collecting them. i had to pay 68 dollars for the new stadium
+[01:10] ironicmoronic: it's called Camera2D and Camera3D in godot 4
+[01:27] ironicmoronic: look up Input.get_vector()
+[01:39] +joshicus_saint_anger: I feel like 3d might be easier if you have access to more specialists. But 2d is easier small teams and generalists
+[01:41] +joshicus_saint_anger: I daydream all the time about making 2d versions of 3d games all day anyway. It's just a more interesting format to me
+[01:43] ~kanjicoder: MegamanX 8 is a good example of 2d gameplay with 3d levels .
+[02:04] 'andrew5r3r5: FINALLY! a godot stream :D
+[02:04] ~kanjicoder: These streams are :
+[02:04] ~kanjicoder: 1 hour of studying at start of stream 
+[02:04] ~kanjicoder: 1 hour of coding at end of stream 
+[02:05] ~kanjicoder: I am almost ready to do the 1 hours of codding .
+[02:05] ~kanjicoder: And will restart the stream when ready to do that.
+[02:05] ~kanjicoder: So just a "stop" + "restart"
+[02:05] ~kanjicoder: No break.
+[02:05] ~kanjicoder: Well, if 10 seconds is a break then yes .
+[02:05] andrew5r3r5: 10 seconds?! how dare you!
+[02:07] 'hella_skellacrow: https://drive.google.com/drive/folders/1_QP_ZvdFArsjHGPPrVeuARvSGaDstzj4?usp=drive_link
+[02:07] ~kanjicoder: www.tinyurl.com/KANJI-SERVER
+[02:08] hella_skellacrow: oh yeah this is josh
+[02:08] hella_skellacrow: haha
+[02:08] ~kanjicoder: Burner account 
+[02:08] hella_skellacrow: Twitch can't handle me being logged in on 2 computers
+[02:09] andrew5r3r5: your art is amazing!
+[02:09] hella_skellacrow: thank you
+[02:12] andrew5r3r5: im currently in software engineering rn, looking for a masters focusing on AI, specifically visual detection and identification (think the idea behind self driving cars)
+[02:13] ~kanjicoder: My friend's husband does AI stuff .
+[02:13] ~kanjicoder: I don't know how social he is.
+[02:13] ~kanjicoder: Actually I do, he's a total introvert .
+[02:14] andrew5r3r5: indeed good sir. but instead of cars, im working with plants. trying to tie in a CNN (image pattern recognition) with correlation to diseases
+[02:15] andrew5r3r5: im building a robot that says "HMM leaf" and decides if its a good leaf or bad leaf
+[02:15] ~kanjicoder: You could make bank if you did that with....
+[02:15] ~kanjicoder: MUSHROOMS 
+[02:16] ~kanjicoder: But also, get into a lot of lawsuits if things go wrong and people die .
+[02:16] andrew5r3r5: HMMM shroom. good shroom or 48 hours drooling shroom?
+[02:16] hella_skellacrow: hahaha, yeah help recognizing mushrooms would be clutch
+[02:16] ~kanjicoder: I would be afraid of dunning kurgering myself to death if I ate wild mushroom .
+[02:17] andrew5r3r5: My masters research is very multi-disciplined. planning on daddy college on giving me research play money to use for starting a company
+[02:17] ~kanjicoder: 1. Figure out what it looks like
+[02:17] ~kanjicoder: 2. Figure out what all the SIMILAIR LOOKING poison mushrooms look like 
+[02:19] ~kanjicoder: @andrew5r3r5 : You need to sign up for "Start Up School"
+[02:20] ~kanjicoder: https://www.startupschool.org/
+[02:24] hella_skellacrow: joshicus_saint_anger
+[02:24] hella_skellacrow: yeah
+[02:32] andrew5r3r5: adding that to my quote board: "heres the thing, we dont give af"
+[02:34] andrew5r3r5: just ctrl s
+[02:35] andrew5r3r5: that only works when you have a default scene selected (done by running the game initially)
+[02:36] ~kanjicoder: But...
+[02:36] andrew5r3r5: j do ctrl s
+[02:36] ~kanjicoder: Is there a way to make my root node a "default scene" in the UI ?
+[02:37] ironicmoronic: a node?
+[02:38] ironicmoronic: there is a main scene settting in project settings
+[02:38] andrew5r3r5: you've gotta save the scene first. a default isnt selected on purpose because people program in different ways and structure differently
+[02:49] ironicmoronic: get_tree().root
+[02:50] ironicmoronic: you actually don't need self to get self
+[02:50] ironicmoronic: you just use the property or method
+[02:50] ironicmoronic: if you want to get a child of the node with the script on
+[02:51] ironicmoronic: it's get_node() or $ for short
+[02:52] ironicmoronic: @onready first
+[03:00] ironicmoronic: you wrote oncready
+[03:01] ironicmoronic: it's a log
+[03:02] ~kanjicoder: So, its a log, so it just has old history .
+[03:04] ironicmoronic: you want to give the camera variable a type
+[03:04] ironicmoronic: with as Camera2D at the end
+[03:04] ironicmoronic: to get better autocompletion
+[03:06] ironicmoronic: the safest way for it to never fail would be var camera : Camera2D = $camera as Camera2D
+[03:12] ironicmoronic: Input is like a global object/class or whatever its called
+[03:13] andrew5r3r5: func _input(even):
+[03:13] andrew5r3r5: (event):
+[03:15] ironicmoronic: pass is just for closing an empty function
+[03:15] andrew5r3r5: you can comment out the _process line to get rid of the error, that and pass
+[03:16] andrew5r3r5: UI_left, right, etc is arrow keys by default
+[03:16] ironicmoronic: the input map in project settings has some built in stuff
+[03:18] andrew5r3r5: pretty sure move_left, right, etc is WASD
+[03:19] andrew5r3r5: make sure when doing direction to normalize() it. if you dont, moving diagonally is faster due to a^2 + b^2 = c^2
+[03:22] ironicmoronic: it's on top of the tabs
+[03:22] andrew5r3r5: ^
+[03:24] ironicmoronic: ctrl shift D is duplicate I think
+[03:24] andrew5r3r5: those return bools, need to put them in if statements
+[03:25] andrew5r3r5: if event, do thing
+[03:25] ironicmoronic: you can ctrl+click them to get them up in the in editor docs
+[03:28] andrew5r3r5: your method for what you did for those events is unique and neat, never thought of that. im stealing that
+[03:32] ironicmoronic: this is probably better to have in process
+[03:33] andrew5r3r5: ^
+[03:33] andrew5r3r5: that way its checking every frame
+
+[03:37] andrew5r3r5: headed to bed, this has been the most
+                     chaotic and exciting stream ive seen in 
+                     ages :D ill def be back for more. 
+                     good luck!
+
+[03:51] ~kanjicoder: https://github.com/KANJICODER/GODOT_FAIL_TIME
+[04:03] ~Stream offline~
