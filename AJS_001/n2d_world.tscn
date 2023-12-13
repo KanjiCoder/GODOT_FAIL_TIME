@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://2dm6jf3c5htt"]
+
+[ext_resource type="Script" path="res://n2d_world.gd" id="1_jj5iw"]
+[ext_resource type="Texture2D" uid="uid://c28i70ojdi6ec" path="res://ASS/CLOUDS_2048.PNG" id="1_mr8hp"]
+[ext_resource type="Texture2D" uid="uid://bl3qqtvyk2uku" path="res://ASS/GOOSE.PNG" id="2_h1d0w"]
+
+[node name="N2D_WORLD" type="Node2D"]
+script = ExtResource("1_jj5iw")
+
+[node name="S2D_BACKGROUND" type="Sprite2D" parent="."]
+texture = ExtResource("1_mr8hp")
+
+[node name="S2D_GOOSE" type="Sprite2D" parent="."]
+texture = ExtResource("2_h1d0w")
