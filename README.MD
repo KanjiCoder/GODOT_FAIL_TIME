@@ -1,14 +1,14 @@
 
 
-    Mandatory 2FA ? I don't have time for this shit .
-    # BYE BYE GITHUB
-    
+	Mandatory 2FA ? I don't have time for this shit .
+	# BYE BYE GITHUB
+	
 
 
-    Playlist for all this source code :
+	Playlist for all this source code :
 
-    www.tinyurl.com/GODOT-FAIL-TIME
+	www.tinyurl.com/GODOT-FAIL-TIME
 
-    Direct Playlist URL :
+	Direct Playlist URL :
 
-    https://www.youtube.com/playlist?list=PL_0ywSR4_rsV8KLfV9EsVX7uihJpubP4u
+	https://www.youtube.com/playlist?list=PL_0ywSR4_rsV8KLfV9EsVX7uihJpubP4u
