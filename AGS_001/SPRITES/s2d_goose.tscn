@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://b5ssh710wp2vw"]
+
+[ext_resource type="Texture2D" uid="uid://cb8gkmlnf5csh" path="res://ASS/GOOSE.PNG" id="1_vwdc2"]
+
+[node name="S2D_GOOSE" type="Sprite2D"]
+texture = ExtResource("1_vwdc2")
